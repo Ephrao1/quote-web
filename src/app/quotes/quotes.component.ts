@@ -11,7 +11,7 @@ import { Quotes } from 'src/app/quotes';
 export class QuotesComponent implements OnInit {
   quotes:Quotes[]=[
     new Quotes('Your time is limited, so dont waste it living someone elses life. Dont be trapped by dogma - which is living with the results of other peoples thinking.', 'Steve Jobs','Ephraim Bundi', new Date(2021,1,13)),
-    new Quotes('If you look at what you have in life, youll always have more. If you look at what you dont have in life, youll never have enough.','Oprah Winfrey','Raphael Kigotho',new Date(2020,12,28)),
+    new Quotes('If you look at what you have in life, youll always have more. If you look at what you dont have in life, youll never have enough.','Oprah Winfrey','Raphael Kigotho',new Date(2021,2,28)),
     new Quotes('If you set your goals ridiculously high and its a failure, you will fail above everyone elses success.', 'James Cameron', 'Moses Kingori',new Date(2021,5,3)),
     new Quotes('Life is what happens when youre busy making other plans.', 'John LennonIf', 'Isaac Museu',new Date(2020,4,10)),
     new Quotes('When you reach the end of your rope, tie a knot in it and hang on.' , 'Franklin D. Roosevelt','Mungai Eve',new Date(2020,5,9)),
