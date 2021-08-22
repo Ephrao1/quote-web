@@ -5,7 +5,7 @@
     transition: all 0.3s ease-in-out;
     text-align: center;
     font-size: 20px;
-    color: white;
+    background-color: white;
   }
 
 .card:hover {
