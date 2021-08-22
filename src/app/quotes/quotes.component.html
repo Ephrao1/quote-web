@@ -15,7 +15,7 @@
            <p>{{quote.quote}}</p>
            <small>{{quote.author | titlecase}}</small> <br>
            <div class="card-footer text-muted">
-            <small>submitted by {{quote.name}} on {{quote.submissionDate | date}} "({{quote.submissionDate | dateCount }} days ago) </small> <br>
+            <small>submitted by {{quote.name}} on {{quote.submissionDate | date}} ({{quote.submissionDate | dateCount }} days ago) </small> <br>
           <a (click)="upVoteQuote(i)" class="btn" >{{quote.upVote}}
              <i class="fas fa-thumbs-up"></i>
           </a>
