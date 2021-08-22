@@ -1,0 +1,43 @@
+.card {
+    margin: 3%;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(22, 82, 10, 0.788);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+.card:hover {
+    transform: translateY(-7px);
+  }
+  .btn{
+      margin-left:40%;
+  }
+  
+form label{
+    padding-top: 10px;
+    font-size: 25px;
+    display: block;
+    transition: 0.5s;
+    border-radius: 2px;
+    font-weight: bold;
+    padding-bottom: -1px;
+}
+form input {
+    width: 50%;
+    margin: 30px 0 30px;
+    height: 40px;
+    position: relative;
+    background: transparent;
+    color: black;
+    box-shadow: none;
+    text-align: center;
+    font-size: 18px;
+}
+textarea {
+    background: transparent;
+    width: 50%;
+    height: 50%;
+    color: black;
+}
